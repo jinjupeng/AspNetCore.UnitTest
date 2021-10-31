@@ -1,0 +1,6 @@
+DROP PROCEDURE IF EXISTS QueryUsersNoParms;
+
+CREATE PROCEDURE QueryUsersNoParms()
+BEGIN
+    SELECT * FROM users;
+END
