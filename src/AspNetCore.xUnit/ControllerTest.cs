@@ -3,12 +3,11 @@ using AspNetCore.UnitTest.Api.Service;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Text;
 using Xunit;
 
 namespace AspNetCore.xUnit
 {
-    public class UnitTestControllerTest
+    public class ControllerTest
     {
         /// <summary>
         /// https://codepiecesorg.wordpress.com/2018/09/28/unit-test-for-custom-validation-attribute/
