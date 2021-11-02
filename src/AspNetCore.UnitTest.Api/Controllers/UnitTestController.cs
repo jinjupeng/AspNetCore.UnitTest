@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AspNetCore.UnitTest.Api.Models.Request;
+using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -25,8 +26,9 @@ namespace AspNetCore.UnitTest.Api.Controllers
 
         // POST api/<UnitTestController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public ActionResult Post([FromBody] UnitTestRequest request)
         {
+            return Ok("");
         }
 
         // PUT api/<UnitTestController>/5

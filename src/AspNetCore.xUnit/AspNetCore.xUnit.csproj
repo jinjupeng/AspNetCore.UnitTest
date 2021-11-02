@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AspNetCore.UnitTest.Api\AspNetCore.UnitTest.Api.csproj" />
     <ProjectReference Include="..\AspNetCore.UnitTest.Service\AspNetCore.UnitTest.Service.csproj" />
   </ItemGroup>
 
